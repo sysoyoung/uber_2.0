@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background: #3b3838;
+    color: white;
+}
+
+.content {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 40px;
+    z-index: -1;
+}
+
+.main-content {
+    margin-left: 30px;
+    width: 700px;
+}
+
+.main-content h3 {
+    width: 400px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/sidebar.css">
+    <link rel="stylesheet" href="../style/buttons.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/profile.css">
+    <link rel="stylesheet" href="../style/load-moreinfo.css">
+    <script async src="../script/submenu.js"></script>
+    <script async type="module" src="../script/create-loadinfo-page.js"></script>
+    <title>Shipper mane</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-box">
+            <div class="logo">
+                U
+                <div class="logo-text">ber</div>
+            </div>
+            <div class="header-profile-box">
+                <div class="profile-info">
+                    <div class="profile-name">Name</div>
+                    <div class="profile-photo"><img src="https://static.thenounproject.com/png/1367727-200.png" alt="profile photo"></div>
+                </div>
+                <div class="submenu display">
+                    <ul>
+                        <li><a href="shipper-profile.html">Profile</a></li>
+                        <li><a href="../index.html">Exit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+
+        <aside class="sidebar">
+            <ul>
+                <li><a href="shipper-main.html">Main</a></li>
+                <li><a href="create-load.html">New load</a></li>
+                <li><a href="">Weather</a></li>
+                <div class="sidebar-dash"></div>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+
+            <div class="load-box">
+                <h1></h1>
+                <div class="load-info-item">
+                    Dimension:
+                    <div class="dimension">
+                        <div class="load-info-item">Width:
+                            <div class="width-info dimension-value"></div>
+                        </div>
+                        <div class="load-info-item">Length:
+                            <div class="length-info dimension-value"></div>
+                        </div>
+                        <div class="load-info-item">Height:
+                            <div class="height-info dimension-value"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="load-info-item">
+                    Weight:
+                    <div class="weight-info"></div>
+                </div>
+
+                <div class="load-info-item">
+                    Your address:
+                    <div class="beginaddress-info"></div>
+                </div>
+                <div class="load-info-item">
+                    Destination address:
+                    <div class="endaddress-info"></div>
+                </div>
+                <div class="load-info-item">
+                    Description:
+                    <div class="description-info"></div>
+                </div>
+                <div class="load-info-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Europe_blank_laea_location_map.svg/1401px-Europe_blank_laea_location_map.svg.png" alt="map">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

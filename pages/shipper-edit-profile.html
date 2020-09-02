@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/profile.css">
+    <link rel="stylesheet" href="../style/form-box.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/sidebar.css">
+    <link rel="stylesheet" href="../style/buttons.css">
+    <link rel="stylesheet" href="../style/shippreg.css">
+    <link rel="stylesheet" href="../style/registration.css">
+
+    <script async src="../script/submenu.js"></script>
+    <script async type="module" src="../script/create-edit-info.js"></script>
+    <script async type="module" src="../script/registration.js"></script>
+    <title>Edit profile</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-box">
+            <div class="logo">
+                U
+                <div class="logo-text">ber</div>
+            </div>
+            <div class="header-profile-box">
+                <div class="profile-info">
+                    <div class="profile-name">Name</div>
+                    <div class="profile-photo"><img src="https://static.thenounproject.com/png/1367727-200.png" alt="profile photo"></div>
+                </div>
+                <div class="submenu display">
+                    <ul>
+                        <li><a href="shipper-profile.html">Profile</a></li>
+                        <li><a href="../index.html">Exit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+
+        <aside class="sidebar">
+            <ul>
+                <li><a href="shipper-main.html">Main</a></li>
+                <li><a href="create-load.html">New load</a></li>
+                <li><a href="">Weather</a></li>
+                <div class="sidebar-dash"></div>
+                <li><a href="shipper-profile.html" class="addit-menu">Back</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+            <form action="" class="edit-form">
+                <h1>Edit profile</h1>
+
+                <label for="firstname">
+                    First name:<br>
+                    <input type="text" name="" id="firstname" placeholder="First name">
+                </label>
+                <label for="lastname">
+                    Last name:<br>
+                    <input type="text" name="" id="lastname" placeholder="Last name">
+                </label>
+                <label for="email">
+                    Email:<br>
+                    <input type="email" name="" id="email" placeholder="Email">
+                </label>
+                <label for="phonenamber">
+                    Phone number:<br>
+                    <input type="tel" name="" id="phonenumber" placeholder="Phone number">
+                </label>
+
+                <button type="submit" class="form-button"><a href="shipper-main.html">Update</a></button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

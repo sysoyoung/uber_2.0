@@ -1,0 +1,38 @@
+.main-content {
+    width: 400px;
+    margin: auto;
+}
+
+.load-box {
+    text-align: center;
+    padding: 15px;
+    background: #535353;
+}
+
+h1 {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.load-info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #a8a8a8;
+}
+
+.load-info-item>div {
+    color: white;
+}
+
+.dimension .load-info-item {
+    margin-top: 5px;
+}
+
+.dimension-value {
+    margin-left: 30px;
+}
+
+.load-info-item img {
+    width: 400px;
+}

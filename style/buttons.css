@@ -1,0 +1,67 @@
+/* FORM BUTTONS */
+
+.form-button {
+    margin-bottom: 30px;
+    background: #4e4a4a;
+    border: 1px solid #afa9a9;
+    padding: 7px 0;
+}
+
+.form-button>a {
+    padding: 8px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.form-button:hover {
+    background: #555151;
+    border: 1px solid #585454;
+    transition-duration: 0.3s;
+}
+
+
+/* CONTENT BUTTONS */
+
+.content-button {
+    padding: 7px;
+    background: #4e4a4a;
+    border: 1px solid #afa9a9;
+    color: rgb(173, 173, 173);
+}
+
+.content-button:hover {
+    cursor: pointer;
+}
+
+.info-button {
+    border: 1px solid #1e92ff;
+}
+
+.delete-button {
+    border: 1px solid #ff1e1e;
+}
+
+.agree-button {
+    border: 1px solid #1dac00;
+}
+
+.info-button:hover {
+    background: #495163;
+    border: 1px solid #495163;
+}
+
+.delete-button:hover {
+    background: #634949;
+    border: 1px solid #634949;
+}
+
+.agree-button:hover {
+    background: #414d37;
+    border: 1px solid #414d37;
+}
+
+.content-link {
+    display: inline-block;
+    margin-right: 10px;
+}

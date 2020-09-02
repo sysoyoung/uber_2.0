@@ -1,0 +1,16 @@
+.form-box button {
+    width: 200px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+.form-box button a {
+    display: block;
+    padding: 20px 0;
+}
+
+.form-box button:first-child {
+    margin-bottom: -120px;
+}

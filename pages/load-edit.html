@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/form-box.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/sidebar.css">
+    <link rel="stylesheet" href="../style/buttons.css">
+    <link rel="stylesheet" href="../style/creation-item-form.css">
+    <script async type="module" src="../script/create-load.js"></script>
+    <script async type="module" src="../script/fill-edit-load-form.js"></script>
+    <script async src="../script/submenu.js"></script>
+    <title>Create load</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-box">
+            <div class="logo">
+                U
+                <div class="logo-text">ber</div>
+            </div>
+            <div class="header-profile-box">
+                <div class="profile-info">
+                    <div class="profile-name">Name</div>
+                    <div class="profile-photo"><img src="https://static.thenounproject.com/png/1367727-200.png" alt="profile photo"></div>
+                </div>
+                <div class="submenu display">
+                    <ul>
+                        <li><a href="shipper-profile.html">Profile</a></li>
+                        <li><a href="../index.html">Exit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+
+        <aside class="sidebar">
+            <ul>
+                <li><a href="shipper-main.html">Main</a></li>
+                <li><a href="create-load.html">New load</a></li>
+                <li><a href="">Weather</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+            <form action="" class="create-load-form">
+                <h1>Edit load</h1>
+                <label for="load-title">
+                    Title:<br>
+                    <input type="text" name="load-title" id="load-title" placeholder="Load title">
+                </label>
+
+                <label for="small-input">
+                    Load dimensions:
+                    <div class="small-input">
+                        <div class="small-input-item">
+                            Width (cm):
+                            <input type="number" name="load-width" id="load-width" placeholder="Width (cm)">
+                        </div>
+                        <div class="small-input-item">
+                            Length (cm):
+                            <input type="number" name="load-length" id="load-length" placeholder="Length (cm)">
+                        </div>
+                        <div class="small-input-item">
+                            Height (cm):
+                            <input type="number" name="load-height" id="load-height" placeholder="Height (cm)">
+                        </div>
+                    </div>
+                </label>
+                <label for="load-weight">
+                    Weight:<br>
+                    <input type="number" name="load-weight" id="load-weight" placeholder="Load weight (kg)">
+                </label>
+
+                <label for="load-beginaddress">
+                    Your addres (City, street, house):<br>
+                    <input type="text" name="load-beginaddress" id="load-beginaddress">
+                </label>
+                <label for="load-endaddress">
+                    Destination address (City, street, house):<br>
+                    <input type="text" name="load-endaddress" id="load-endaddress">
+                </label>
+                <label for="load-message">
+                    Description:<br>
+                    <textarea name="load-message" id="load-message" placeholder="Description"></textarea>
+                </label>
+
+                <button type="submit" class="form-button"><a href="shipper-main.html">Update</a></button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

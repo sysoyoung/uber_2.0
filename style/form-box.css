@@ -1,0 +1,119 @@
+body {
+    background: #e2e2e2;
+}
+
+.form-box {
+    margin: auto;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    margin-top: 8%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    background: #474343;
+    color: white;
+    -webkit-box-shadow: -1px 6px 56px 11px rgba(145, 138, 145, 1);
+    -moz-box-shadow: -1px 6px 56px 11px rgba(145, 138, 145, 1);
+    box-shadow: -1px 6px 56px 11px rgba(145, 138, 145, 1);
+}
+
+.login-form,
+.registration,
+.create-load-form,
+.create-truck-form,
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-form h1 {
+    margin-bottom: 20px;
+}
+
+.edit-form button {
+    margin-top: 20px;
+}
+
+.login-form input,
+.registration input,
+.create-load-form select,
+.create-truck-form select,
+.create-load-form input,
+.create-truck-form input,
+.create-load-form textarea,
+.edit-form input {
+    margin-bottom: 8px;
+    width: 200px;
+    background-color: #4e4a4a;
+    border: none;
+    color: white;
+    padding: 9px;
+}
+
+.create-load-form input,
+.create-truck-form input,
+.create-load-form textarea,
+.edit-form input {
+    width: 407px;
+}
+
+.create-load-form textarea {
+    height: 70px;
+    resize: none;
+}
+
+.create-load-form select,
+.create-truck-form select {
+    width: 425px;
+}
+
+.small-input {
+    display: flex;
+    justify-content: space-between;
+    width: 425px;
+}
+
+.create-load-form .small-input input,
+.create-load-form .small-input label {
+    width: 121px;
+}
+
+.small-input-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-load-form label input,
+.create-load-form label textarea,
+.edit-form input {
+    margin-top: 3px;
+}
+
+.login-form input::-webkit-input-placeholder,
+.registration input::-webkit-input-placeholder,
+.create-load-form input::-webkit-input-placeholder,
+.create-load-form textarea::-webkit-input-placeholder,
+.create-truck-form input::-webkit-input-placeholder {
+    color: white;
+}
+
+.login-form input::-moz-placeholder,
+.registration input::-moz-placeholder,
+.create-load-form input::-moz-placeholder,
+.create-load-form textarea::-moz-placeholder,
+.create-truck-form input::-moz-placeholder {
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}

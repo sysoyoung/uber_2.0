@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/header.css">
+    <link rel="stylesheet" href="../style/form-box.css">
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/sidebar.css">
+    <link rel="stylesheet" href="../style/buttons.css">
+    <link rel="stylesheet" href="../style/creation-item-form.css">
+    <script async src="../script/submenu.js"></script>
+    <script async type="module" src="../script/create-truck.js"></script>
+    <title>Driver name</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-box">
+            <div class="logo">
+                U
+                <div class="logo-text">ber</div>
+            </div>
+            <div class="header-profile-box">
+                <div class="profile-info">
+                    <div class="profile-name">Name</div>
+                    <div class="profile-photo"><img src="https://static.thenounproject.com/png/1367727-200.png" alt="profile photo"></div>
+                </div>
+                <div class="submenu display">
+                    <ul>
+                        <li><a href="driver-profile.html">Profile</a></li>
+                        <li><a href="../index.html">Exit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+
+        <aside class="sidebar">
+            <ul>
+                <li><a href="driver-main.html">Main</a></li>
+                <li><a href="create-truck.html">New truck</a></li>
+                <li><a href="list-of-trucks.html">Available trucks</a></li>
+                <li><a href="">Weather</a></li>
+            </ul>
+        </aside>
+
+        <div class="main-content">
+            <form action="" class="create-truck-form">
+                <h1>Create truck</h1>
+                <input type="text" name="truck-title" id="truck-title" placeholder="Truck title">
+                <select name="truck" id="truck-category">
+                    <option value="" disabled selected hidden>Truck category</option>
+                    <option value="Sprinter">Sprinter (Width: 300; Length: 250; Height: 170; Payload: 1700)</option>
+                    <option value="Small Straite">Small Straite (Width: 500; Length: 250; Height: 170; Payload: 2500)</option>
+                    <option value="Long Straite">Long Straite (Width: 700; Length: 350; Height: 200; Payload: 4000)</option>
+                </select>
+
+                <button type="submit" class="form-button"><a href="list-of-trucks.html">Create</a></button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

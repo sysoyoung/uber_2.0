@@ -1,0 +1,62 @@
+/* ------------------------------info------------------------------- */
+
+.current-truck,
+.load {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    background: #666161;
+    padding: 7px;
+    border-radius: 5px;
+    height: 31px;
+    transition-duration: .5s;
+    overflow: hidden;
+}
+
+.current-truck-fullinfo,
+.load-fullinfo {
+    height: 125px;
+    transition-duration: 0.5s;
+}
+
+.current-truck-head,
+.load-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.truck-name,
+.load-name {
+    line-height: 31px;
+    vertical-align: middle;
+}
+
+
+/* -----------------------------------more info---------------------------------- */
+
+.moreinfo-item,
+.load-load-moreinfo-item {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+
+.moreinfo-title,
+.load-moreinfo-title {
+    color: #dfdfdf;
+}
+
+.moreinfo-text,
+.load-moreinfo-text {
+    width: 250px;
+}
+
+.truck-buttons button {
+    margin-right: 10px;
+}
+
+.truck-buttons a>button {
+    margin-right: 0;
+}

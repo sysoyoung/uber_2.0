@@ -1,0 +1,57 @@
+.sidebar-dash {
+    width: 160px;
+    margin-left: 5px;
+    border-top: 1px solid #9c9c9c;
+}
+
+.sidebar ul li .addit-menu {
+    color: #9c9c9c;
+}
+
+.profile-full-photo img {
+    width: 200px;
+    height: 230px;
+    margin: 5px;
+    border-radius: 5px;
+    background: white;
+}
+
+.profile-full-photo {
+    width: 210px;
+    border-radius: 5px;
+    background: #666161;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-full-info {
+    width: 600px;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 0;
+    text-align: right;
+    background: #666161;
+}
+
+.profile-dash {
+    border-top: 1px solid white;
+    margin: 10px 0 10px 20px;
+}
+
+.profile-item {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.profile-item-title {
+    width: 200px;
+    color: #303030;
+}
+
+.profile-item-text {
+    width: 200px;
+}
